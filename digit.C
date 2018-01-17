@@ -1,14 +1,14 @@
-#includ<stdio.h>
+#include<stdio.h>
 int main()
 {
 int  num,count =0;
-printf("enter the number");
+printf("enter the number",num);
 scanf("%d",&num);
 while(num!=0)
 {
 num=num/10;
 count++;
 }
-printf("number of digits:%d",&count);
+printf("number of digits:%d",count);
 return 0;
 }
